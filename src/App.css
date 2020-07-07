@@ -1,3 +1,20 @@
+.layout-container{
+  display: grid;
+  grid-template-rows: 88px calc(100vh - 140px) 60px;
+}
+
+.header{
+  background-color: (#fc8c03);
+}
+
+.main{
+  background-color: #85d4ff;
+}
+
+.footer{
+  background-color: #7de802;
+}
+
 .App {
   text-align: center;
 }
