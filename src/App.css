@@ -1,17 +1,44 @@
-.layout-container{
+.layout-container {
   display: grid;
   grid-template-rows: 88px calc(100vh - 140px) 60px;
+  width: 100%;
 }
 
-.header{
-  background-color: (#fc8c03);
+.header {
+  background-color: #fc8c03;
 }
 
-.main{
+.main {
   background-color: #85d4ff;
 }
 
-.footer{
+.grid-container {
+  display: grid;
+  height: 100%;
+  /* grid-template-columns: 1fr 1fr 1fr 1fr; */
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1px 1px;
+  grid-template-areas: "ChatForm ChatTimeLine VideoPlayer .";
+  background-color: #c4f5d4;
+
+}
+
+.ChatForm {
+  grid-area: ChatForm;
+  background-color: #e6e6e6;
+}
+
+.ChatTimeLine {
+  grid-area: ChatTimeLine;
+  background-color: #bbbbbb;
+}
+
+.VideoPlayer {
+  grid-area: VideoPlayer;
+  background-color: #b4b4b4;
+}
+
+.footer {
   background-color: #7de802;
 }
 
