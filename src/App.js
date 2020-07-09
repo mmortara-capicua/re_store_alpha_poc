@@ -1,5 +1,5 @@
 import React from "react";
-import logo from "./logo.svg";
+// import logo from "./logo.svg";
 import "./App.css";
 
 function App() {
@@ -8,9 +8,13 @@ function App() {
       <div className="header">header</div>
       <div className="main">
         <div className="grid-container">
-          <div className="ChatForm">ChatForm</div>
-          <div className="ChatTimeLine">ChatTimeLine</div>
-          <div className="VideoPlayer">VideoPlayer</div>
+          
+        <div className="VideoPlayer">VideoPlayer1</div>
+        <div className="ChatTimeLine">ChatTimeLine2</div>
+        <div className="ChatForm">ChatForm3</div>
+          
+          
+          
         </div>
       </div>
       <div className="footer">footer</div>

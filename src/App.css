@@ -14,13 +14,17 @@
 
 .grid-container {
   display: grid;
+  /* grid-auto-flow: initial; */
   height: 100%;
   /* grid-template-columns: 1fr 1fr 1fr 1fr; */
   grid-template-columns: repeat(3, 1fr);
   gap: 1px 1px;
   grid-template-areas: "ChatForm ChatTimeLine VideoPlayer .";
   background-color: #c4f5d4;
-
+  
+}
+.grid-container.reverse {
+  grid-template-columns: 1fr 2fr;
 }
 
 .ChatForm {
