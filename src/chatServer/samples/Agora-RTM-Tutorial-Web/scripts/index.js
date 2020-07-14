@@ -27,6 +27,7 @@ module.exports = {
     overlay: {
       warnings: true,
       errors: true,
+      port: 80,
     },
     hot: true,
     contentBase: path.join(__dirname, "./"),
