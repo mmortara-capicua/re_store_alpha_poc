@@ -1,3 +1,5 @@
+const AgoraRTC = require('../videoServer/agora-rtc-sdk/AgoraRTCSDK.min')
+
 let handleFail = function(err) {
 	console.log(`Error: ${err}`);
 };
